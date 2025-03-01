@@ -1,0 +1,40 @@
+.login-container {
+    background: linear-gradient(135deg, rgba(108, 43, 217, 0.1), rgba(0, 0, 0, 0.2));
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.login-input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.login-input:focus {
+    border-color: #6c2bd9;
+    box-shadow: 0 0 0 2px rgba(108, 43, 217, 0.2);
+}
+
+.login-button {
+    background: #6c2bd9;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background: #5a23b5;
+}
+
+.login-button:disabled {
+    background: #4a4a4a;
+    cursor: not-allowed;
+}
+
+.error-message {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    color: #ef4444;
+}
